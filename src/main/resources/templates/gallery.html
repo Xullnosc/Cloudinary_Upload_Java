@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container image-container">
+    <h1>Your Uploaded Image</h1>
+    <img th:src="@{${imageURL}}" alt="Uploaded Image">
+</div>
+
+</body>
+</html>
